@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-div {
+#header-background {
     height: 80px;
     width: 100%;
     background: rgb(216, 178, 108);
@@ -63,14 +63,34 @@ h1, h2 {
 
 /* hero image*/
 
-#outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+
+#cover-text, #cover-text h2 {
+    color:rgb(2, 1, 1);
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-yogi3.jpg') no-repeat center center; 
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: red;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
