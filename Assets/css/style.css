@@ -38,6 +38,7 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 75px;
+    margin-left: 20px;    
 }
 
 #menu li {
@@ -94,3 +95,21 @@ h1, h2 {
 
     position: absolute;
 }
+
+#explore-more {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(233, 204, 75);
+}
+
+#acts1 {
+    float: left;
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 300px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10%;
+}
+
