@@ -9,4 +9,68 @@
 body {
     font-family: Lato;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+div {
+    height: 80px;
+    width: 100%;
+    background: rgb(216, 178, 108);
+}
+
+/*headings and logo*/
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+    }
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #fff;
+    background-color: #3a3a3a;
+}
+
+.active {
+    color: #fff;
+    background-color: rgba(2, 2, 15, 0.2);
+}
+
+/* hero image*/
+
+#outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-yogi3.jpg') no-repeat center center; 
 }
