@@ -101,32 +101,65 @@ h1, h2 {
 #yoga-output {
     height: 400px;
     width: 100%;
+    background-color: rgba(2, 2, 15, 0.2);
 }
 
 #yoga-output h2 {
     text-align: center;
+    padding-top: 10px;
 }
 
 .left-output {
-    padding-top: 20px;
+    padding-top: 30px;
     width: 33%;
-    float: left;
-    background-color: blue;
-    
+    float: left;    
 }
 
 .right-output {
-    padding-top: 20px;
+    padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: rgb(221, 98, 16);
 }
 
 .center-output {
-    padding-top: 20px;
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: rgb(26, 207, 66);
+}
+
+.left-output-heading {
+    padding-left: 100px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.left-output-heading i {
+    font-size: 500%;
+    color: rgb(241, 100, 18);
+}
+
+.right-output-heading {
+    padding-right: 100px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.right-output-heading i {
+    font-size: 500%;
+    color: rgb(241, 100, 18);
+}
+
+.center-output-heading {
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.center-output-heading i {
+    font-size: 500%;
+    color: rgb(241, 100, 18);
 }
 
 /*#yoga-benifits li {
