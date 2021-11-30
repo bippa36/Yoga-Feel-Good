@@ -15,7 +15,7 @@ body {
 #header-background {
     height: 80px;
     width: 100%;
-    background: rgb(216, 178, 108);
+    background: rgb(229, 216, 190);
 }
 
 /*headings and logo*/
@@ -96,11 +96,54 @@ h1, h2 {
     position: absolute;
 }
 
+/*Output of Yoga*/
+
+#yoga-output {
+    height: 400px;
+    width: 100%;
+}
+
+#yoga-output h2 {
+    text-align: center;
+}
+
+.left-output {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+    
+}
+
+.right-output {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+    background-color: rgb(221, 98, 16);
+}
+
+.center-output {
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(26, 207, 66);
+}
+
+/*#yoga-benifits li {
+    float: left;
+    list-style-type: none;
+    width: 30%;
+    line-height: 100px;
+    margin-left: 500px;
+    
+}
+*/
+
 #explore-more {
     height: 400px;
     width: 100%;
     text-align: center;
-    background-color: rgb(233, 204, 75);
+    background-color: rgb(236, 230, 203);
 }
 
 #acts1 {
