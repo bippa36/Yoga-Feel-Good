@@ -93,12 +93,12 @@ h1 {
     height: 330px;
     border-radius: 5%;
 
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: rgba(231, 178, 124, 0.6);
 
-    bottom: 100px;
+    bottom: 30px;
     right: 100px;
 
     position: absolute;

@@ -1,108 +1,38 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Mindful Yoga
 
-Welcome bippa36,
+I have developed a webpage for offering yoga classes online with flexible time set. These days working people are quite busy, and hardly can mange to go to any yoga center. So, the concept is to take the yoga school to everybodies home so that the workong people get the opportunity to  flexibly manage their time. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Mindful yoga is a site that can inspire people to explore yoga without any extra effort. Working people can get the scope to refresh their mind and keep healthy physic in thier hectic schedule. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+----Features----
 
-## Gitpod Reminders
+In this website, I have put three navigation menu: Home, Gallery, and Sign Up. Users can navigate from page to page across all devices without reverting back to the previous page via the ‘back’ button.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Home: Cover image of home page is pictorially attractive and convey a message to users about mindfulness and yoga. Cover text clearly narrates that this is a site for online yoga courses.
 
-`python3 -m http.server`
+In section 2 the benifits of yoga are described, so as to attract people, who is deling with working stress and often breakdowns. Besides this atracts people to explore the art of happy life.
+The benifits are highlighted with the relevant icons.
 
-A blue button should appear to click: _Make Public_,
+Users can also check through the explore more section. There are some motivational information.
 
-Another blue button should appear to click: _Open Browser_.
+Gallery: gallery has some representatibe photos of activoties, which can attrct users to explore yoga.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Sign Up: Sign up pge is simple. Nobody can submit without checking all the boxces. For that "equired" was put in input element. To make it easy to follow the "hover" and "ålaceholder" have also been incorporated.
 
-A blue button should appear to click: _Make Public_,
+----Features left to be implemented----
 
-Another blue button should appear to click: _Open Browser_.
+There are many things to do. 
+1. Some inspiration video could be incorporated.
+2. Some animation in the cover image could be given.
+3. I feel that color combination is not good. It can be improved.
+4. For gallery I could not find the images of proper size at the last minute. So, I used the gallery images from love running tutorial project.
+5. I could not manage time to give the responsive effect of the gallery images.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+----References---
 
-To log into the Heroku toolbelt CLI:
+I  largely follwed the coding examples from tutorial projects "Coder's Coffee House" and "Love Running". Sometimes i also similar name for id and class attributes. Besides I got some concept from the following webpages:
+1. https://www.isafoundation.net/
+2. https://try.yogainternational.com/restorative/?utm_term=restorative%20yoga%20training%20online&utm_campaign=AMG-Search-Core1-EN-Member-TopYogaTypes&utm_source=ppc&utm_medium=google&hsa_acc=9132522830&hsa_cam=15026092486&hsa_grp=128849435956&hsa_ad=527767027664&hsa_src=g&hsa_tgt=aud-341852025261:dsa-811358988376&hsa_kw=restorative%20yoga%20training%20online&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2EM6eJZ0FTa-_neIujJUXa60z23gP_X2G8U3467uDw6nvvXYXKq9Q8aArsmEALw_wcB#lp-pom-block-2288
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+3. https://try.yogainternational.com/membership-30day/?utm_term=yoga%20international&utm_campaign=AMG-Search-Global-EN-Member-Branded(Exact)&utm_source=ppc&utm_medium=google&hsa_acc=9132522830&hsa_cam=13819614394&hsa_grp=128137887521&hsa_ad=532357163735&hsa_src=g&hsa_tgt=kwd-36313021&hsa_kw=yoga%20international&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiA15yNBhDTARIsAGnwe0WO0ZGiv3IL0OXPnXBRtjaJsrEGAZCuq1i0BT_YYPKOhvLTVSzMqSwaAtJ3EALw_wcB
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
